@@ -1,0 +1,11 @@
+newrep:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: PBTDEMO01
+      schema: LANDING
+      account: ''
+      user: ''
